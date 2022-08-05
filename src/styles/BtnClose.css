@@ -1,0 +1,22 @@
+.btn-cls {
+    height: 57px;
+    width: 57px;
+    background-color: #07bfe9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: background-color 0.5s;
+}.btn-cls:hover {
+    background-color: #000;
+}
+
+
+.btn-cls-plus {
+    height: 80px;
+    width: 80px;
+    color:#fff;
+    transform: rotate(45deg);
+}

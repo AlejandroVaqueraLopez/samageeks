@@ -1,13 +1,25 @@
+//components
+import NavbarList from './NavbarList'
 //dependencies
 import { NavLink } from 'react-router-dom'
+//hooks
+import { useState } from 'react'
+//css stylesheets
+import '../../styles/NavbarList.css'
 
 const Navbar = () => {
+    const [navbarToggle, setNavbarToggle] = useState(false)
+
+    const navbarClick = () => {
+        setNavbarToggle(!navbarToggle)
+    }
+
     return (
-        <div className="container ">
+        <div className="container border border-dark m-0 p-0">
 
             <nav className="navbar navbar-light border border-dark ">
                 <div className="container-fluid d-flex justify-content-start">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" onClick={ navbarClick } type="button">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <NavLink className="navbar-brand ms-3" to="/">
@@ -16,22 +28,14 @@ const Navbar = () => {
                 </div>
             </nav>
 
-
-            <div className="collapse" id="navbarToggleExternalContent">
-                <div className="p-4 border border-dark">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/">INICIO</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/servicios">SERVICIOS</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link active" to="/nosotros" aria-disabled="true">NOSOTROS</NavLink>
-                            </li>
-                        </ul>
-                </div>
-            </div>
+            {
+                navbarToggle 
+                ? (
+                    <NavbarList event={ navbarClick }/>
+                ):(
+                    "false"
+                )
+            }
 
         </div>
     )
