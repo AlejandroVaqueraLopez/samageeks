@@ -1,12 +1,28 @@
+.btn-cls-container {
+    position: absolute;
+    z-index: 2;
+}
+
 .navbar-list {
     height: 100vh;
     width: 100vw;
-    animation: openNavbar 1s cubic-bezier(.23,.85,.38,1) forwards;
     background-color:rgba(255, 255, 255, 0.93);
+    animation: openNavbar 1s cubic-bezier(.23,.85,.38,1) forwards;
     position: fixed;
     top: -100vh;
     left: 0px;
     outline: solid purple;
+}
+
+.inactiveNavbar {
+    animation: closeNavbar 1s cubic-bezier(.23,.85,.38,1) forwards;
+}
+
+.navbar-list-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
 }
 
 .upper-link {
@@ -15,12 +31,12 @@
     font-weight: 800;
     line-height:70px;
     font-family: 'Poppins', sans-serif;
+    padding-top: -60px;
 }
-
-.nav-item:hover {
-    color: #07bfe9;
+.nav-item{
     transition: transform 0.5s;
-} .nav-item:hover {
+}.nav-item:hover {
+    color: #07bfe9;
     transform: translateY(-10px);
 }
 
@@ -30,5 +46,14 @@
     }
     100%{
         top: 0vh;
+    }
+}
+
+@keyframes closeNavbar {
+    0%{
+        top: 0vh;
+    }
+    100%{
+        top: -100vh;
     }
 }

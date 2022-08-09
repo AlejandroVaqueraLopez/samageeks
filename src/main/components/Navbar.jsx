@@ -31,9 +31,9 @@ const Navbar = () => {
             {
                 navbarToggle 
                 ? (
-                    <NavbarList event={ navbarClick }/>
+                    <NavbarList event={ navbarClick } />
                 ):(
-                    "false"
+                    null
                 )
             }
 

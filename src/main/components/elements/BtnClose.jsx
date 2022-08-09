@@ -4,7 +4,7 @@ import '../../../styles/BtnClose.css'
 import { FaPlus } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 
-const BtnClose = ({ event }) => {
+const BtnClose = ({ event = null }) => {
     return (
         <button className="btn-cls" onClick={event}>
             <IconContext.Provider value={{className:"btn-cls-plus"}}>
