@@ -6,6 +6,11 @@
   min-height: 100vh;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
