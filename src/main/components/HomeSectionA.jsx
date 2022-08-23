@@ -25,7 +25,11 @@ const HomeSectionA = () => {
                             de Tijuana, México.
                         </p>
 
-                        <HomeSectionAButtons />
+                        <div className="row">
+                            <div className="col-12 border border-dark d-flex justify-content-center">
+                                <HomeSectionAButtons />
+                            </div>
+                        </div>
 
                     </div>
                 </div>

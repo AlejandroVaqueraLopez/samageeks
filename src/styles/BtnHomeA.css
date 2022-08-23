@@ -1,0 +1,18 @@
+.btn-homeA-icon {
+    color:#fff;
+    margin:3px;
+}
+
+.btn-homeA {
+    border-radius: 10px;
+    padding: 12px 22px;
+    transition: background 0.4s;
+}.btn-homeA:hover {
+    background: #2f2f2f !important;
+}
+
+.btn-homeA span {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
