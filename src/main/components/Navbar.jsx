@@ -15,18 +15,21 @@ const Navbar = () => {
     }
 
     return (
-        <div className="container border border-dark m-0 p-0">
-
-            <nav className="navbar navbar-light border border-dark ">
-                <div className="container-fluid d-flex justify-content-start">
-                    <button className="navbar-toggler" onClick={ navbarClick } type="button">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <NavLink className="navbar-brand ms-3" to="/">
-                        <img src="./src/assets/home-logo.png" alt="no logo" />
-                    </NavLink>
+        <div className="container navbar-container m-0 p-0">
+            <div className="row">
+                <div className="col-12">
+                    <nav className="navbar container navbar-light mx-0 px-0">
+                        <div className="d-flex justify-content-start mx-0 px-0">
+                            <button className="navbar-toggler" onClick={ navbarClick } type="button">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+                            <NavLink className="navbar-brand ms-3" to="/">
+                                <img src="./src/assets/home-logo.png" alt="no logo" />
+                            </NavLink>
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+            </div>
 
             {
                 navbarToggle 

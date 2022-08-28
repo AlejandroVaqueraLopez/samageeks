@@ -1,10 +1,6 @@
 .home-section-a-container {
-    min-height: calc(100vh - 67px);
+    min-height: 100vh;
     height: auto;
-}
-
-.home-section-col {
-    margin-top: -67px;
 }
 
 .title-row {

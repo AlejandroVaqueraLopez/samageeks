@@ -4,7 +4,7 @@ import '../../../styles/BtnHomeA.css'
 import { FaPhoneAlt, FaLocationArrow, FaLaptopMedical, FaPaperclip } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 
-const BtnHomeA = ({event = null, text, bg, icon}) => {
+const ButtonElement = ({event = null, text, bg, icon}) => {
     return (
         <button className="btn-homeA mx-3 my-1" style={{backgroundColor: `${bg}`}} onClick={event}>
             <IconContext.Provider value={{className:"btn-homeA-icon"}}>
@@ -17,7 +17,7 @@ const BtnHomeA = ({event = null, text, bg, icon}) => {
                                 ? (<FaLaptopMedical />) 
                                 : icon === "invoice" 
                                     ? (<FaPaperclip/>) 
-                                    : "no icon" 
+                                    : "" 
                 }
                 <span className="ms-2">{ text }</span>
             </IconContext.Provider>
@@ -25,4 +25,4 @@ const BtnHomeA = ({event = null, text, bg, icon}) => {
     )
 }
 
-export default BtnHomeA
+export default ButtonElement
