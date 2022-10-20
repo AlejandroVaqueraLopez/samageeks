@@ -1,4 +1,5 @@
 .home-section-c-container {
     height: auto;
-    min-height:400px;
+    min-height:300px;
+    background: #f8f8f8;
 }

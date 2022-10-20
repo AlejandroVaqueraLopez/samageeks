@@ -6,11 +6,11 @@ import HomeSectionAButtons from './HomeSectionAButtons'
 
 const HomeSectionA = () => {
     return (
-        <div className="container-fluid home-section-a-container border border-dark p-0 m-0 d-flex align-items-center">
+        <div className="container-fluid home-section-a-container p-0 m-0 d-flex align-items-center">
             <div className="container">
                 <div className="row">
 
-                    <div className="col-12 home-section-col">
+                    <div className="col-12 home-section-col d-flex flex-column align-items-center">
 
                         <div className="title-container d-flex flex-column align-items-center my-3">
                             <span className="title-row">CREA</span>

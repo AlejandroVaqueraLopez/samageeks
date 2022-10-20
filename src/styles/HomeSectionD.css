@@ -1,0 +1,21 @@
+.home-section-d-container {
+    height: auto;
+    min-height:200px;
+    /*white-space: nowrap !important;*/
+}
+
+.services-subtitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: #07bfe9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services-paragraph {
+    font-size: 50px;
+    font-weight: bold;
+    color: #02303f;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
