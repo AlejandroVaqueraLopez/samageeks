@@ -1,0 +1,68 @@
+.home-section-h-container {
+    height: auto;
+    min-height:100vh;
+    background: #efefef;
+}
+
+.services-subtitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: #07bfe9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services-paragraph {
+    font-size: 50px;
+    font-weight: bold;
+    color: #02303f;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.helped-text {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #02303f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.helped-person {
+    color: #07bfe9;
+}
+
+.google-icon {
+    height: 35px;
+    width: auto;
+    margin-top: 2px;
+}
+
+.facebook-icon {
+    width: auto;
+    height: 23px;
+    margin-bottom: 2px;
+}
+
+.facebook-rating-total,.google-rating-total, .facebook-rating-number, .facebook-rating-number{
+    color: #02303f;
+}
+
+.bg-container {
+    z-index: 1;
+    outline: solid red;
+    width: 60%;
+    height: 100vh;
+    right: 0px;
+    top: 0px;
+}
+
+.home-section-h {
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bg-container {
+        width: 100%;
+    }
+}

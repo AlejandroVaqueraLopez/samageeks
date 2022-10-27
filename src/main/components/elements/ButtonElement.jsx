@@ -4,9 +4,9 @@ import '../../../styles/BtnHomeA.css'
 import { FaPhoneAlt, FaLocationArrow, FaLaptopMedical, FaPaperclip } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 
-const ButtonElement = ({event = null, text, bg, icon}) => {
+const ButtonElement = ({event = null, text, bg, icon, color = null}) => {
     return (
-        <button className="btn-homeA mx-3 my-1" style={{backgroundColor: `${bg}`}} onClick={event}>
+        <button className="btn-homeA mx-3 my-1" style={{backgroundColor: `${bg}`, color: `${color}`}} onClick={event}>
             <IconContext.Provider value={{className:"btn-homeA-icon"}}>
                 {
                     icon === "call" 

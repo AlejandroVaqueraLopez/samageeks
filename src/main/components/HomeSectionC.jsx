@@ -27,7 +27,7 @@ const HomeSectionC = () => {
                                 </p>
                                 <div className="row d-flex justify-content-center p-0">
                                     <div className="col-12 d-flex justify-content-start m-0 p-0">
-                                        <ButtonElement text="Conoce al equipo" bg="#07BFE9" className="mx-0 px-0"/>
+                                        <ButtonElement text="Conoce al equipo" bg="#07BFE9" color="#fff" className="mx-0 px-0"/>
                                     </div>
                                 </div>
                             </div>

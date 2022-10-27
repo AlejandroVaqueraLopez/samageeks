@@ -19,7 +19,7 @@ const HomeSectionG = () => {
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                        <ButtonElement text="Llamar" bg="#07bfe9" icon="call"/>
+                        <ButtonElement text="Llamar" bg="#07bfe9" icon="call" color="#fff"/>
                         <a className="invoice-link mx-3" href="/servicios">
                             <span>Todos nuestros servicios <FaArrowRight /></span>
                         </a>
