@@ -3,7 +3,7 @@
 
 .navbar {
     position: fixed;
-    z-index: 5;
+    z-index: 2;
     background-color: #fff;
 }
 
@@ -20,7 +20,7 @@
     position: fixed;
     top: -100vh;
     left: 0px;
-    z-index:2;
+    z-index:3;
 }
 
 .inactiveNavbar {

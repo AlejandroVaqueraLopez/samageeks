@@ -9,7 +9,7 @@ const HomeSectionB = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <ParallaxBlock bg="src/assets/bg-home-b.png" height="400px"/>
+                        <ParallaxBlock bg="src/assets/bg-home-b.jpg" height="400px"/>
                     </div>
                 </div>
             </div>
