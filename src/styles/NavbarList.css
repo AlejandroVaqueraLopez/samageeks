@@ -20,8 +20,7 @@
     position: fixed;
     top: -100vh;
     left: 0px;
-    outline: solid purple;
-    z-index:2;
+    z-index:3;
 }
 
 .inactiveNavbar {
