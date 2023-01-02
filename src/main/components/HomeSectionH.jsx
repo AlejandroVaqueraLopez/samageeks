@@ -15,7 +15,7 @@ const HomeSectionH = () => {
         <div className="position-relative container-fluid home-section-h-container p-0 my-5 d-flex align-items-center justify-content-center">
 
             <div className="bg-container position-absolute">
-                <ParallaxElement bg="src/assets/bg-sama-relleno.png" height="100vh"/>
+                <ParallaxElement bg="src/assets/bg-sama-relleno-resized.png" height="100vh"/>
             </div>
 
             <div className="container home-section-h border border-dark position-absolute">
