@@ -18,22 +18,15 @@ const HomeSectionI = () => {
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		  </div>
 		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-			<div className="d-block comment-item-content w-100">
-				<p>lskdjfa;lskdjf;laskdjf as;ldfj;alskdjf;alsjdf a;ldksjf;aslkdjfsaldkjfa;sdjfa;slkkdjf as;ldfkj;alksdfj;lkasjfd a;sdlfj;alskdjf</p>
+			<div class="carousel-item active">
+			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
 			</div>
-	    		
-		    </div>
-		    <div class="carousel-item">
-			<div className="d-block comment-item-content w-100">
-				<p>lskdjfa;lskdjf;laskdjf as;ldfj;alskdjf;alsjdf a;ldksjf;aslkdjfsaldkjfa;sdjfa;slkkdjf as;ldfkj;alksdfj;lkasjfd a;sdlfj;alskdjf</p>
+			<div class="carousel-item">
+			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
 			</div>
-		    </div>
-		    <div class="carousel-item">
-			<div className="d-block comment-item-content w-100">
-				<p>lskdjfa;lskdjf;laskdjf as;ldfj;alskdjf;alsjdf a;ldksjf;aslkdjfsaldkjfa;sdjfa;slkkdjf as;ldfkj;alksdfj;lkasjfd a;sdlfj;alskdjf</p>
+			<div class="carousel-item">
+			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
 			</div>
-		    </div>
 		  </div>
 		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
