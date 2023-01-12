@@ -3,40 +3,60 @@ import '../../styles/HomeSectionI.css'
 
 //dependencies
 //import { FaStar } from 'react-icons/fa'
-
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 
 //components
 import ButtonElement from "./elements/ButtonElement"
 
+//autoPlay interval="15000" transitionTime="1000" infiniteLoop
 const HomeSectionI = () => {
     return (
         <div className="container-fluid home-section-I-container p-0 my-5 d-flex align-items-center justify-content-center">
-	    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		  <div class="carousel-indicators">
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		  </div>
-		  <div class="carousel-inner">
-			<div class="carousel-item active">
-			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
-			</div>
-			<div class="carousel-item">
-			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
-			</div>
-			<div class="carousel-item">
-			      <img src="src/assets/bg-comments.png" class="d-block w-100" alt="..." />
-			</div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Next</span>
-		  </button>
-	   </div>
+            <Carousel className="carousel-container" showThumbs={false} showArrows={true} centerMode centerSlidePercentage="60" emulateTouch={true} >
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend"></p>
+                </div>
+                <div className='carousel-item-container'>
+                    <div className='carousel-item-content'>
+                        <p>
+                            Somos tus geeks de confianza.
+                            Quienes cuidan tu equipo de la manera más segura, honesta y 
+                            humana posible, como si de nuestros propios equipos se trataran. 
+                            Entendemos lo importante que es tu equipo y tu información, sabemos que 
+                            la vida no se detiene y que es una herramienta indispensable en tu día a dia.
+                        </p>
+                        <div className='comment-author-container'>
+                            <img className="author-pic" src="src/assets/emoji-1.jpg" alt="" />
+                            <div>
+                                <h3>Yazmine sanches</h3>
+                                <span>a traves de facebook</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend"></p>
+                </div>
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend"></p>
+                </div>
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend"></p>
+                </div>
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src="src/assets/bg-comments.png" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
         </div>
     )
 }
