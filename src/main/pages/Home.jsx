@@ -7,6 +7,7 @@ import HomeSectionE from '../components/HomeSectionE'
 import HomeSectionG from '../components/HomeSectionG'
 import HomeSectionH from '../components/HomeSectionH'
 import HomeSectionI from '../components/HomeSectionI'
+import HomeSectionK from '../components/HomeSectionK'
 
 //home page
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <HomeSectionG />
             <HomeSectionH />
             <HomeSectionI />
+	    <HomeSectionK />
         </>
     )
 }

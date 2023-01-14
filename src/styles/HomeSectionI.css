@@ -2,23 +2,59 @@
     height: auto;
     min-height:300px;
 }
+.carousel-container {
+	box-sizing: border-box !important;
+	max-width: 1256px;
+}
 
 .carousel-item-container{
 	box-sizing: border-box;
 	padding: 20px 40px;
-	outline:solid red;
 	display:flex;
 	justify-content: center;
+	height: 100%;
+	width: auto;
+	max-width:700px;
 }
 .carousel-item-content {
     border-radius: 20px;
     box-shadow: 0px 1px 24px 1px rgb(2 48 63 / 27%);
-	width: 600px;
+	width: auto;
+	height: 100%;
 	padding: 45px 50px;
 	text-align: start;
 	box-sizing: border-box;
 }
 
-.carousel-caption-custom{ 
-	background:indianred;
+.comment-author-container {
+	
+}
+
+.author-pic {
+	display: inline-block;
+	height: 90px;
+	width: 90px !important;
+}
+
+@media (1201px <= width <= 1400px){
+	.carousel-container {
+		box-sizing: border-box !important;
+		max-width: 1116px;
+	}
+
+}
+
+@media ( 993px <= width <= 1200px){
+	.carousel-container {
+		box-sizing: border-box !important;
+		max-width: 936px;
+	}
+
+}
+
+@media ( 0px <= width <= 992px){
+	.carousel-container {
+		box-sizing: border-box !important;
+		max-width: 696px;
+	}
 }
