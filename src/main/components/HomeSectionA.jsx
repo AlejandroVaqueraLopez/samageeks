@@ -26,7 +26,7 @@ const HomeSectionA = () => {
                         </p>
 
                         <div className="row">
-                            <div className="col-12 border border-dark d-flex justify-content-center">
+                            <div className="col-12 d-flex justify-content-center">
                                 <HomeSectionAButtons />
                             </div>
                         </div>

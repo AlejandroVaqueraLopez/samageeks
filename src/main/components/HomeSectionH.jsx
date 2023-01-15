@@ -15,15 +15,15 @@ const HomeSectionH = () => {
         <div className="position-relative container-fluid home-section-h-container p-0 my-5 d-flex align-items-center justify-content-center">
 
             <div className="bg-container position-absolute">
-                <ParallaxElement bg="src/assets/bg-sama-relleno-resized.png" height="100vh"/>
+                <ParallaxElement bg="src/assets/bg-sama-relleno-resized.png" height="80vh"/>
             </div>
 
-            <div className="container home-section-h border border-dark position-absolute">
+            <div className="container home-section-h position-absolute">
 
-                <div className="row d-flex border border-dark">
+                <div className="row d-flex ps-5">
 
                     <div className="col-12 col-lg-9 d-flex justify-content-center align-items-center">
-                        <div className="helped-container border border-dark">
+                        <div className="helped-container ">
                             <p className="helped-text text-start">
                                 Hemos ayudado a cientos de <span className="helped-person">Profesionistas</span> tijuanenses con sus problemas informáticos.
                             </p>

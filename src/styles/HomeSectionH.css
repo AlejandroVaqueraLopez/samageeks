@@ -1,6 +1,6 @@
 .home-section-h-container {
     height: auto;
-    min-height:100vh;
+    min-height:80vh;
     background: #efefef;
 }
 
@@ -50,9 +50,8 @@
 
 .bg-container {
     z-index: 1;
-    outline: solid red;
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     right: 0px;
     top: 0px;
 }
